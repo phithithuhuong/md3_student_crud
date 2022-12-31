@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create</title>
+</head>
+<body>
+<h1>Thêm mới học sinh </h1>
+<form action="/create" method="post">
+    <h3>Tên học sinh</h3>
+    <input type="text" name="name" placeholder="Name">
+    <br>
+    <h3>Tuổi</h3>
+    <input type="text" name="age" placeholder="Age">
+    <br>
+    <h3>Nơi ở</h3>
+    <input type="text" name="address" placeholder="Address">
+    <br>
+    <h3>Điểm</h3>
+    <br>
+
+    <select name="idPoint" >
+        {point}
+    </select>
+
+    <button type="submit">Thêm mới</button>
+</form>
+</body>
+</html>
